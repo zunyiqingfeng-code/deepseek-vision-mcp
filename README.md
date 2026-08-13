@@ -1,5 +1,7 @@
 # DeepSeek Vision MCP
 
+**中文** | [English](README.en.md)
+
 让纯文本 LLM 也能"看图"：通过 MCP 桥接 DeepSeek 网页版视觉对话，为 Claude Code / OpenCode / Codex / DeepSeek Harness 等任意 MCP 客户端提供本地图片分析能力。
 
 - 使用你已登录的 DeepSeek 网页会话（非 API key，不消耗 API 额度）
