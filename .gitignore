@@ -1,0 +1,24 @@
+# 运行时状态（含个人会话数据，切勿提交）
+.shared_session.json
+.shared_session.json.*
+*.lock
+*.lock.*
+
+# 登录令牌
+.ds_web_token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+
+# 临时截图与上传
+ds_vision_screen_*
+ds_vision_upload_*
