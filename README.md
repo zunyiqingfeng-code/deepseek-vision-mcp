@@ -115,6 +115,10 @@ MCP 客户端会自动发现工具。模型侧的使用规则（可写入客户�
 - 用户说"看看屏幕/检查当前窗口"时调用 `capture_screen`，无需用户先截图
 - 多张截图 / before-after / 多视口产物用 `analyze_image_set` 批量复核
 
+### DeepSeek Harness 集成
+
+`harness-integration/` 目录包含 DSH 专用组件：视觉 MCP 的 `cordis.patch.yml` 配置，以及**输入框发图插件**（为纯文本模型提供 📷 选图 + Ctrl+V 粘贴图片，自动保存路径后由视觉 MCP 识图）。详见 [harness-integration/README.md](harness-integration/README.md)。
+
 ### 命令行直接使用
 
 ```bash

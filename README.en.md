@@ -115,6 +115,10 @@ MCP clients discover the tools automatically. Suggested rules for the model (can
 - When the user says "look at the screen / check the current window", call `capture_screen` — no manual screenshot needed
 - For multiple screenshots / before-after / multi-viewport artifacts, use `analyze_image_set` for batch review
 
+### DeepSeek Harness Integration
+
+The `harness-integration/` directory contains DSH-specific components: the `cordis.patch.yml` setup for this MCP, plus a **composer image plugin** (adds a 📷 picker and Ctrl+V paste for text-only models; images are saved locally and the path is inserted for the vision MCP to analyze). See [harness-integration/README.md](harness-integration/README.md).
+
 ### CLI Usage
 
 ```bash
